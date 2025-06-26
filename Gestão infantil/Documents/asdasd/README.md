@@ -1,13 +1,21 @@
-# Projetofinalalexandre 
+
 Projeto_Escola/
 ├── app.py                 # Aplicação principal que integra todos os módulos
+
 ├── aluno.py              # Módulo de gerenciamento de alunos
+
 ├── professor.py          # Módulo de gerenciamento de professores
+
 ├── turma.py              # Módulo de gerenciamento de turmas
+
 ├── usuario.py            # Módulo de gerenciamento de usuários
+
 ├── atividade.py          # Módulo de gerenciamento de atividades
+
 ├── atividade_aluno.py    # Módulo de relacionamento atividade-aluno
+
 ├── presenca.py           # Módulo de controle de presença
+
 ├── pagamento.py          # Módulo de gerenciamento financeiro
 ├── log_config.py         # Configuração de logs do sistema
 ├── Util/
