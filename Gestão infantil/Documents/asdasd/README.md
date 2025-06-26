@@ -1,5 +1,5 @@
-
 Projeto_Escola/
+
 ├── app.py                 # Aplicação principal que integra todos os módulos
 
 ├── aluno.py              # Módulo de gerenciamento de alunos
@@ -17,15 +17,27 @@ Projeto_Escola/
 ├── presenca.py           # Módulo de controle de presença
 
 ├── pagamento.py          # Módulo de gerenciamento financeiro
+
 ├── log_config.py         # Configuração de logs do sistema
+
 ├── Util/
+
 │   ├── __init__.py       # Inicializador do pacote
+
 │   └── bd.py             # Módulo de conexão com banco de dados
+
 ├── scripts/
+
 │   └── DDL.sql           # Script de criação do banco de dados
+
 ├── prometheus/
+
 │   ├── dockerfile        # Dockerfile do Prometheus
+
 │   └── prometheus.yml    # Configuração do Prometheus
+
 ├── docker-compose.yml    # Orquestração de containers
+
 ├── dockerfile            # Dockerfile da aplicação
+
 └── requeriments.txt      # Dependências Python
