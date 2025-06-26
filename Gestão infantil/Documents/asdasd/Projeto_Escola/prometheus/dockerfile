@@ -1,0 +1,20 @@
+
+FROM python:3.9-slim
+
+
+LABEL maintainer="prometheus-image"
+
+# Define o diretório de trabalho no container
+WORKDIR /PROJETO_ESCOLA
+
+# Copia os arquivos da aplicação para o container
+COPY . .
+
+# Instala as dependências do projeto (certifique-se de ter o requirements.txt)
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Exponha a porta 5000 (ajuste para a porta usada pela sua aplicação)
+EXPOSE 5000
+
+# Configura o comando padrão para iniciar a aplicação
+CMD ["python", "app.py"]
